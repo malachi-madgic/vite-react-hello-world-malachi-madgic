@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+# attention: .env and .env.* files should be in your .gitignore
+#            for all projects that use different environment variables for
+#            production and development.
+#            But if you are building a public open source project, you might
+#            want to commit .env.development to make it easier for others to
+#            get started.
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+node_modules
+/dist
+/build
+
+.vite/
+
+# Editors
+.vscode
+.idea
+
+# OS
+.DS_Store
+thumbs.db
